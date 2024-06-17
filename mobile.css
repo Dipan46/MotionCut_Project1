@@ -1,0 +1,17 @@
+#price{
+    margin-bottom: 3rem;
+}
+
+.price-card {
+    width: 70%;
+}
+
+button {
+    width: 100%;
+}
+
+/* Dropdown */
+#currency {
+    margin: 0 10rem;
+    margin-top: 2rem;
+}

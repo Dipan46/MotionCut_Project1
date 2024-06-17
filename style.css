@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(243, 243, 255) 0%, rgb(254, 248, 255) 51%, rgb(255, 250, 253) 100%);
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background-color: #8e789b;
+    color: #F5F0F1;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 0.9em;
+    margin: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 2rem 2rem;
+    box-shadow: 7px 7px 2px 0px #000000;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+/* Dropdown */
+#currency{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#currency button{
+    box-shadow: 7px 7px 2px 0px #000000;
+    border: none;
+    padding: 1rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 0.8rem;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Card */
+#price {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    width: 16%;
+    margin: 0 3rem;
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+    background-color: #F5F0F1;
+    box-shadow: 7px 7px 2px 0px #000000;
+    transition: transform 0.3s;
+}
+
+/* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+.price-card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 13px 13px 10px 3px #000000;
+}
+
+.pricing-card h2 {
+    margin-bottom: 0.5em;
+}
+
+.price {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.price span {
+    font-size: 0.5em;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+/* button */
+button {
+    background-color: #e4daea;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    border: 2px dashed black;
+    border-radius: 0.8rem;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+button:active {
+    transform: scale(0.9);
+    transition: 0.1s;
+    background-color: #8e789b;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
